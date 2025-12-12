@@ -19,7 +19,7 @@ AOS.init();
 
 function App() {
 
-  return (
+  return ( 
     <>
      <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
       <div>
@@ -48,7 +48,7 @@ function App() {
       </div>
       
       <div className="basis-full md:basis-5/12 pl-0 md:pl-8 overflow-hidden max-w-full flex justify-center ">
-              <Lanyard position={[0, 0, 10]} gravity={[0, -40, 0]} />
+              <Lanyard position={[0, 0, 10]} gravity={[0, -30, 0]} />
             </div>
       </div>
 
@@ -168,7 +168,7 @@ I believe that every digital product should combine an appealing visual design, 
   <form 
   action="https://formsubmit.co/kireina1365@gmail.com" 
   method="POST" 
-  className="bg-zinc-800 p-10 w-fit rounded-md" 
+  className="bg-zinc-800 p-10  rounded-md" 
   autoComplete="off"
   data-aos-duration="1000"
   data-aos-delay="500"
